@@ -1,0 +1,137 @@
+<html>
+    <head>
+        <title>O HTML NA PRÁTICA</title>
+    </head>
+    <body>
+        <h1 id="inicio">Apresentando o Desafio Dio Sobre HTML</h1>
+        <hr />
+        <h2>Índice</h2>
+        <ul>
+            <li><a href="#O-que">O que é o HTML para que serve?</a></li>
+            <li><a href="#Ferramentas">Ferramentas Utilizadas</a></li>
+            <li><a href="#Inspetor">Inspetor de Elementos</a></li>
+            <li><a href="#Estrutura">Estrutura Básica do HTML</a></li>
+            <li><a href="#Falando">Falando sobre Tags</a></li>
+            <li><a href="#Atributos">Atributos das Tags</a></li>
+            <li><a href="#Texto">Texto</a></li>
+            <li><a href="#Listas-Ordenadas">Listas Ordenadas e Não Ordenadas</a></li>
+            <li><a href="#Links">Links</a></li>
+            <li><a href="#Referências">Referências</a></li>
+        </ul>
+        <hr />
+
+        <h2 id="O-que">O que é o HTML para que serve?</h2>
+        <small><a href="#inicio">(Voltar ao Inicio)</a></small>
+        <p>HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web. Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação (CSS) ou a funcionalidade/comportamento (JavaScript) de uma página da web.</p>
+        <hr />
+
+        <h2 id="Ferramentas">Ferramentas Utilizadas</h2>
+        <small><a href="#inicio">(Voltar ao Inicio)</a></small>
+        <p>Uma das principais ferramentas para o HTML seria um Editor HTML de texto de preferência gratuito e de código aberto, no curso utilizamos o VScode que suporta a colaboração de código em tempo real.</p>
+        <hr />
+
+        <h2 id="Inspetor">Inspetor de Elementos</h2>
+        <small><a href="#inicio">(Voltar ao Inicio)</a></small>
+        <p>O inspetor de Elementos serve para você pode ver o funcionamento interno do site. Embora você so possa ver marcas front-end como HTML e CSS isso lhe dá uma maneira de ver precissamente como os desenvolvedores construíram um site.</p>
+        <hr />
+
+        <h2 id="Estrutura">Estrutura Básica do HTML</h2>
+        <small><a href="#inicio">(Voltar ao Inicio)</a></small>
+        <p>Para poder iniciar sua estrutura você precisa de um arquivo HTML no seu editor de texto, utilizamos o <strong>(index.html)</strong>ele seria nosso inicio ao começar um código html.</p>
+        <p>A estrutura básica do HTML é composta das tags <strong>html, head e body</strong> porém obviamente, precisamos de mais tags para que a nossa página possua algum conteúdo, mas ínternamente o HTML pe composto e exxecutado por esssas três principais tags</p>
+        <hr />
+
+        <h2 id="Falando">Falando sobre Tags</h2>
+        <small><a href="#inicio">(Voltar ao Inicio)</a></small>
+        <p>Os elementps HTML ou também chamados <strong>tags</strong> HTML são utilizaados para informar ao navegador que tipo de estrutura é essa que está sendo construída, podendo ser títulos, parágrafos, imagens, links entre outros.</p>
+        <ul>
+            <li><h4>Qual a principal tag do HTML?</h3></li>
+        </ul>
+        <p> <strong><'html'> <'html'></strong> – <mark>Esta tag é o elemento básico da estrutura do HTML</mark>. Assim sendo, ela vai ter todos os elementos do seu documento.</p>
+        <p>Também temos a tag <strong><'head'></strong> que seria a (cabeça) do codigo e temos tambem a tag <strong><'body'></strong> que seria o (corpo) do código.</p>
+        <hr />
+
+        <h2 id="Atributos">Atributos das Tags</h2>
+        <small><a href="#inicio">(Voltar ao Inicio)</a></small>
+        <p>As tags HTML têm diferentes atributos que permitem controlar vários aspectos do conteúdo e do comportamento de elementos na página da web</p>
+        <ul>
+            <li><h4>Um exemplo de Atributo seria:</h4></li>
+        </ul>
+        <p><'a href="https://www.example.com">Exemplo<'/a></p>
+        <p>Onde, <strong>src:</strong> Usado em elementos como <strong><'img'></strong> e <'script'> para especificar o local de origem do recurso (imagem, script, etc.)</p>
+
+        <hr />
+        <h2 id="Texto">Texto</h2>
+        <small><a href="#inicio">(Voltar ao Inicio)</a></small>
+        <p>O texto é geralmente é inserido dentro de tags como 'p' para parágrafos, também temos 'h1' a 'h6' para títulos, também temos o 'span' para estilos específicos de texto, entre outros.</p>
+        <p>Além disso o texto pode ser formatado usando tags como 'strong' para negrito, 'em' para itálico e 'a' para links.</p>
+        <p>O texto pode ser enriquecido com estilos CSS para controlar sua aparência, como cor, tamanho e fonte.</p>
+        <hr />
+
+        <h2 id="Listas-Ordenadas">Listas Ordenadas e Não Ordenadas</h2>
+        <small><a href="#inicio">(Voltar ao Inicio)</a></small>
+        <p>As listas ordenadas e não ordenadas em HTML são usadas para exibir itens de uma maneira organizada em uma página da web</p>
+        <h4><strong>Aqui está uma explicação sobre caada uma delas:</strong></h5>
+        <h4>Listas Não Ordenadas 'ul':</h6>
+        <hr />
+        <p><strong>Uma lista não ordenada, os itens são apresentados com marcadores, geralmente marcados com pontos ou círculos.</strong></p>
+        <p>html:</p>
+        <p>/ /<'ul'>
+        <p>/ /  / /<'li'>Item 1 <'/li'>
+        <p>/ /  / /<'li'>Item 2 <'/li'>
+        <p>/ /  / /<'li'>Item 3 <'/li'>
+        <p>/ /  / /<'li'>Item 4 <'/li'>
+        <p>/ /<'ul'>
+        </p>
+        <h4><strong>seria exibido assim na página da seguinte forma:</strong></h5>
+        <p>- item 1</p>
+        <p>- item 2</p>
+        <p>- item 3</p>
+        <p>- item 4</p>
+        <hr />
+        <h3>Listas Ordenadas <'ol'>:</h3>
+        <hr />
+        <p>Em uma lista ordenada, os itens são apresentados em uma sequência numérica ou alfabética.</p>
+        <p>html:</p>
+        <p>/ /<'ol'>
+        <p>/ /  / /<'li'>Item 1 <'/li'>
+        <p>/ /  / /<'li'>Item 2 <'/li'>
+        <p>/ /  / /<'li'>Item 3 <'/li'>
+        <p>/ /  / /<'li'>Item 4 <'/li'>
+        <p>/ /<'ol'>
+        </p>
+        <h4><strong>seria exibido assim na página da seguinte forma:</strong></h5>
+            <p>1. item 1</p>
+            <p>2. item 2</p>
+            <p>3. item 3</p>
+            <p>4. item 4</p>
+        <p>Em ambas as listas, cada item é representado pelo elemento <strong><'li'></strong> (abreviação de "list item"). Isso marca cada item individualmente dentro da lista.</p>
+        <p>Em resumo, <'ul'> é para listas não ordenadas, enquanto <'ol'> é para listas ordenadas. Dentro de cada uma delas, você usa <'li'> para marcar cada item da lista. Essas estruturas são fundamentais para organizar e apresentar informações de maneira legível em páginas da web.</p>
+        <hr />
+        
+        <h2 id="Links">Links</h2>
+        <small><a href="#inicio">(Voltar ao Inicio)</a></small>
+        <h3>O que é ?</h3>
+        <p>Um link em HTML é um elemento usado para conectar uma página da web a outra, permitindo que os usuários naveguem de uma página para outra simplesmente clicando no link. Os links são fundamentais na web, pois fornecem a capacidade de conectar informações entre diferentes páginas, sites e recursos online</p>
+        <h3>Como criar um ?</h3>
+        <p>Para criar um link em HTML, você usa a tag <'a'> (abreviação de "anchor"), que possui um atributo href (hiperlink de referência) que especifica o destino do link.</p>
+        <h4>Um exemplo:</h4>
+        <p><'a href="https://www.example.com">Visite o Exemplo<'/a'></p>
+        <h4><strong></strong>Neste exemplo temos:</strong></h4>
+        <p><strong><'a'></strong> indica o início do link.</p>
+        <p><strong>"https://www.example.com"</strong> define o endereço para onde o link direcionará.</p>
+        <p><strong>Visite o Exemplo</strong> é o texto âncora visível para o usuário. Este é o texto que será clicável.</p>
+        
+        <hr />
+        
+        
+        <h2 id="Referências">Referências</h2>
+        <small><a href="#inicio">(Voltar ao Inicio)</a></small>
+        <blockquote>
+            <i><p><a href="https://blog.betrybe.com/html/input-html/estrutura-html-pronta-estrutura-basica-de-uma-pagina-html/">Estrutura HTML</a></p></i>
+            <i><p><a href="https://kinsta.com/pt/blog/ferramenta-inspecionar/">Como usar a Ferramenta Inspecionar</a></p></i>
+            <i><p><a href="https://www.google.com/search?client=opera-gx&q=tudo+sobre+html+video&sourceid=opera&ie=UTF-8&oe=UTF-8#">Curso HTML youTube</a></p></i>
+            <i><p><a href="https://www.dio.me/">Curso HTML na Plataforma DIO!</a></p></i>
+        </blockquote>
+    </body>
+</html>
